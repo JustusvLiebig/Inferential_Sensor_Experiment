@@ -1,5 +1,5 @@
 # VBSFA
-This is a code for variational bayesian supervised factor analysis code
+This is a code for variational bayesian supervised factor analysis code in Soft Sensor Field
 ## Variational Bayesian Supervised Factor Analysis
 * DataGeneration.m
 * SoftSensor_VBSFA.m
