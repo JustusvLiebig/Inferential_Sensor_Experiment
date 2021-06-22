@@ -14,5 +14,6 @@ On Methanation Dataset
  S-VBSFA  | 0.0297 | 0.9731
 
 ## Reference
-* [Streaming parallel variational Bayesian supervised factor analysis for adaptive soft sensor modeling with big process data](https://doi.org/10.1016/J.JPROCONT.2019.10.010)  
 * [Streaming Variational Bayes](https://papers.nips.cc/paper/2013/file/51ef186e18dc00c2d31982567235c559-Paper.pdf)
+* [Streaming parallel variational Bayesian supervised factor analysis for adaptive soft sensor modeling with big process data](https://doi.org/10.1016/J.JPROCONT.2019.10.010)  
+
