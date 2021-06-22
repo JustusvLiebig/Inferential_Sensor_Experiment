@@ -10,7 +10,7 @@ This is a code for variational bayesian supervised factor analysis code in Soft 
 ## Results
 On Methanation Dataset
  Model  | RMSE  | R2 | Time(CPUs)
- ----- | ----- | ------  
+ ----- | ----- | ------  |------
  S-VBSFA  | 0.0297 | 0.9731 | 135.69
 
 ## Reference
