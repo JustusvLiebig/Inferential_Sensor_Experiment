@@ -1,4 +1,4 @@
-# VGMR
+# VBGMR
 This is a code for variational bayesian Gaussian mixture regression in soft sensor field
 ## Variational Bayesian Gaussian Mixture Regression
 * dataGenerationRegression.py
