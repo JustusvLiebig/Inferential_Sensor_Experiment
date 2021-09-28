@@ -13,3 +13,4 @@ On Methanation Dataset
 ## Reference
 * [Variational Bayesian Gaussian Mixture Regression for Soft Sensing Key Variables in Non-Gaussian Industrial Processes](https://ieeexplore.ieee.org/abstract/document/7498572)
 * [基于不同学习范式的工业大数据建模与质量预报](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFDTEMP&filename=1021108380.nh&uniplatform=NZKPT&v=TyLAg%25mmd2FUTiEN%25mmd2FKr9Q%25mmd2FtuzVipfOhZJAX4awDA8Ad1mYF9ySYFhbgu5uO%25mmd2BFpHJD58y4)  
+* [Variational inference for Dirichlet process mixtures](https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-1/Variational-inference-for-Dirichlet-process-mixtures/10.1214/06-BA104.full)
