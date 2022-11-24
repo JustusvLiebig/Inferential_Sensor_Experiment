@@ -1,17 +1,3 @@
-import numpy as np
-import random
-import scipy.linalg
-import torch
-import torch.nn as nn
-from itertools import chain
-
-def setup_seed(seed):
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
-    np.random.seed(seed)
-    random.seed(seed)
-    torch.backends.cudnn.deterministic = True
- 
 class SystemIdentification(nn.Module):
     def __init__(self, data_dim, hidden_dim, ):
         super(SystemIdentification, self).__init__()
@@ -98,9 +84,6 @@ class SystemIdentification(nn.Module):
             filtered_mean = prior_mean + prior_cov @ self.observation_matrix.transpose(1, 0) @ torch.linalg.solve(obs_cov, residual)
             # filtered_cov = prior_cov - kalman_gain @ obs_cov @ kalman_gain.transpose(1, 0)
             filtered_cov = prior_cov - prior_cov @ self.observation_matrix.transpose(1, 0) @ torch.linalg.inv(obs_cov) @ self.observation_matrix @ prior_cov
-            if t == 0:
-                print("打印滤波后的结果:")
-                print(filtered_cov)
             temp_filtering_mean.append(filtered_mean)
             temp_filtering_cov.append(filtered_cov)
 
@@ -197,4 +180,3 @@ class SystemIdentification(nn.Module):
                     break
 
         return self
-
