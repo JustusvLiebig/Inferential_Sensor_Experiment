@@ -6,3 +6,6 @@ Soft Sensor with Variational Inference Technique
   Soft Sensor using Gaussian mixture model with variational Bayesian
 ## LDS
   Just add the EM-based LDS method. Well, this is not numercial stable.
+
+# Jibber-Jabber
+I think the basic works like parallezation the algorithm should be done by the enterprise. So, I'm not the brother who is mentioned in the Zhihu Question......
